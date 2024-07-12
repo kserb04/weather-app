@@ -10,9 +10,9 @@ The app uses [OpenWeatherMap API](https://openweathermap.org/).
 
 ## Tech Stack
 Frontend:
--[React](https://react.dev/)
--[Recharts](https://recharts.org/) for plotting
--[React Bootstrap](https://react-bootstrap.netlify.app/) for frontend components
+- [React](https://react.dev/)
+- [Recharts](https://recharts.org/) for plotting
+- [React Bootstrap](https://react-bootstrap.netlify.app/) for frontend components
 
 Backend:
 - [FastAPI](https://fastapi.tiangolo.com/)
