@@ -23,6 +23,8 @@ Deployment:
 - [Docker Compose](https://docs.docker.com/compose/) for easy deployment
 
 ## Deployment
+Put your OpenWeatherMap API key in `.secrets/apikey`.
+
 Run `make up` to build and start the app.
 
 Run `make down` to stop the app.
