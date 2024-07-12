@@ -1,23 +1,26 @@
 # My Weather App
 My Weather App is a web application that allows users to track weather data for various cities.
+
 Users can add or remove cities they want to see the weather data for.
+
 The app provides a bar chart and a pie chart for a comparison of weather conditions and temperature in all tracked cities.
+
 There is also a line chart for each city that provides a preview of the predicted temperatures for the next 3 days.
 The app uses [OpenWeatherMap API](https://openweathermap.org/).
 
 ## Tech Stack
 Frontend:
-    - [React](https://react.dev/)
-    - [Recharts](https://recharts.org/) for plotting
-    - [React Bootstrap](https://react-bootstrap.netlify.app/) for frontend components
+-[React](https://react.dev/)
+-[Recharts](https://recharts.org/) for plotting
+-[React Bootstrap](https://react-bootstrap.netlify.app/) for frontend components
 
 Backend:
-    - [FastAPI](https://fastapi.tiangolo.com/)
-    - [Pydantic](https://docs.pydantic.dev/latest/) for data validation
-    - [hishel](https://hishel.com/) for caching
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [Pydantic](https://docs.pydantic.dev/latest/) for data validation
+- [hishel](https://hishel.com/) for caching
 
 Deployment:
-    - [Docker Compose](https://docs.docker.com/compose/) for easy deployment
+- [Docker Compose](https://docs.docker.com/compose/) for easy deployment
 
 ## Preview
 ### Home page
