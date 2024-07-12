@@ -22,6 +22,13 @@ Backend:
 Deployment:
 - [Docker Compose](https://docs.docker.com/compose/) for easy deployment
 
+## Deployment
+Run `make up` to build and start the app.
+
+Run `make down` to stop the app.
+
+By default, frontend runs on port 3000 and backend on port 8000.
+
 ## Preview
 ### Home page
 ![Home page](/images/home_page.png "Home page")
@@ -39,8 +46,3 @@ Click the "X" button next to the city's name to remove it from the list of track
 
 ### Detailed city weather information
 Choose the city name from the dropdown menu or click on a city card to view its detailed weather information.
-
-## Deployment
-Run `make up` to build and start the app.
-Run `make down` to stop the app.
-By default, frontend runs on port 3000 and backend on port 8000.
